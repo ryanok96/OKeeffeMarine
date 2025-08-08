@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OKeeffe Marine — Portfolio</title>
+  <meta name="description" content="Portfolio website for OKeeffe Marine Conservation & GIS work." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #0b1220; color: #e5e7eb; }
+    .container { max-width: 1100px; }
+  </style>
+</head>
+<body class="font-sans">
+  <!-- HEADER / NAV -->
+  <header class="sticky top-0 bg-black bg-opacity-40 backdrop-filter backdrop-blur shadow">
+    <nav class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-extrabold tracking-tight text-xl">OKeeffe Marine</a>
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:opacity-80">About</a>
+        <a href="#projects" class="hover:opacity-80">Projects</a>
+        <a href="#maps" class="hover:opacity-80">Maps</a>
+        <a href="#publications" class="hover:opacity-80">Publications</a>
+        <a href="#teaching" class="hover:opacity-80">Teaching</a>
+        <a href="#contact" class="hover:opacity-80">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="pt-24 pb-16">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Marine Conservation<br><span class="text-blue-300">GIS & Remote Sensing</span></h1>
+        <p class="mt-4 text-gray-300">/* Add a one-sentence tagline about your work and impact */</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#projects" class="rounded-2xl px-5 py-3 bg-white text-gray-900 font-semibold hover:opacity-90">View Projects</a>
+          <a href="#contact" class="rounded-2xl px-5 py-3 border border-white/20 hover:bg-white/10">Contact</a>
+        </div>
+      </div>
+      <div class="h-56 md:h-72 bg-gray-800 rounded-3xl flex items-center justify-center text-gray-400">
+        <!-- Optional hero image goes here -->
+        <span>Hero Image Placeholder</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">About</h2>
+      <p class="text-gray-300">/* Write a short bio (3–5 sentences). Include current role, focus areas, methods/tools, and policy relevance. */</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Duplicate this card for each project -->
+        <article class="rounded-2xl overflow-hidden bg-gray-900 border border-white/10">
+          <div class="h-40 bg-gray-800 flex items-center justify-center text-gray-500">Image</div>
+          <div class="p-5">
+            <h3 class="font-semibold">Project Title</h3>
+            <p class="text-sm text-gray-300 mt-1">One-sentence summary of the project and outcome.</p>
+            <div class="mt-4 flex gap-3 text-sm">
+              <a href="#" class="underline">Link 1</a>
+              <a href="#" class="underline">Link 2</a>
+              <a href="#" class="underline">Link 3</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAPS -->
+  <section id="maps" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Interactive Maps</h2>
+      <p class="text-gray-300 mb-4">/* Paste an ArcGIS Online app iframe or add a Leaflet/Mapbox embed later. */</p>
+      <div class="h-96 bg-gray-800 rounded-2xl flex items-center justify-center text-gray-400">Map Embed Placeholder</div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4">Publications & Reports</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-300">
+        <li>/* Add item with link to PDF or external page */</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TEACHING -->
+  <section id="teaching" class="py-16">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-2xl font-bold mb-4">Teaching & Outreach</h2>
+        <ul class="list-disc list-inside text-gray-300 space-y-2">
+          <li>/* Add bullet points for modules, workshops, community projects */</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl bg-gray-900 border border-white/10 p-6">
+        <h3 class="font-semibold mb-3">Talks & Workshops</h3>
+        <ol class="space-y-2 text-gray-300 list-decimal list-inside">
+          <li>/* Add items */</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+      <p class="text-gray-300">/* Add your email and links. */</p>
+      <div class="mt-6 flex justify-center gap-3">
+        <a href="mailto:your@email" class="rounded-2xl px-5 py-3 bg-white text-gray-900 font-semibold hover:opacity-90">Email</a>
+        <a href="#" class="rounded-2xl px-5 py-3 border border-white/20 hover:bg-white/10">LinkedIn</a>
+        <a href="#" class="rounded-2xl px-5 py-3 border border-white/20 hover:bg-white/10">GitHub</a>
+        <a href="#" class="rounded-2xl px-5 py-3 border border-white/20 hover:bg-white/10">ArcGIS Online</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 text-sm text-gray-400">
+    <div class="container mx-auto px-4 flex flex-wrap gap-2 justify-between">
+      <span>© <span id="year"></span> OKeeffe Marine</span>
+      <span>Built with Tailwind • Ready for GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
